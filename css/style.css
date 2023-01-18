@@ -1,0 +1,31 @@
+
+
+/* Start background */
+.background {
+    position: fixed;
+    background: #1F2021;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+}
+
+.background .container {
+    overflow-x: hidden;
+}
+
+.background .container ul {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 0.5fr);
+    grid-template-rows: 1fr;
+    gap: 0 20px;
+}
+
+.background .container ul li {
+    background-color: #353235;
+    width: 60px;
+}
+
+/* End background */
+
