@@ -1,0 +1,17 @@
+.port-header .shuffle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    text-transform: capitalize;
+    padding: 40px 0;
+}
+.port-header .shuffle li{
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.port-header .shuffle li.active{
+    background-color: var(--main-color);
+    color: white;
+} 

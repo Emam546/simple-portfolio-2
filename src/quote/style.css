@@ -1,0 +1,35 @@
+.quote {
+    background-image: url("./images/quote.jpg");
+    background-size: cover;
+    background-color: var(--gray-color);
+    padding: 90px 0;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.quote::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(28, 26, 26, 0.801);
+}
+.quote .container{
+    position: relative;
+}
+.quote q{
+    display: block;
+    font-size: 30px;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: normal;
+
+}
+.quote span{
+    display: block;
+    margin-top: 25px;
+}

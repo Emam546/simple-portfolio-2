@@ -1,0 +1,116 @@
+/* Start Header */
+.header {
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0px;
+    width: 100%;
+}
+
+.header .container {
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    min-height: 65px;
+}
+
+.header .container::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 1px;
+    background-color: var(--gray-color);
+    left: 0px;
+}
+
+.header .toggle-menu {
+    color: white;
+    font-size: 45px !important;
+    cursor: pointer;
+    user-select: none;
+    margin-right: 20px;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 1;
+}
+
+
+.header .header-pages li {
+    padding: 30px;
+}
+
+.header .header-pages a {
+    text-decoration: none;
+    color: initial;
+    text-transform: uppercase;
+    color: white;
+}
+
+.header .header-pages li.selected,
+.header .header-pages li:hover {
+    color: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+}
+
+.header .header-search {
+    color: white;
+    position: relative;
+    padding: 6px 30px;
+}
+
+.header .header-search i {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.header .header-search::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 2px;
+    background-color: white;
+}
+
+@media (max-width:1200px) {
+    .header .header-pages {
+        display: block;
+        position: absolute;
+        top: 100%;
+        z-index: 30;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+    }
+
+    .header .header-pages li {
+        padding: 20px 10px;
+    }
+
+    .header .header-pages li.selected,
+    .header .header-pages li:hover {
+        border: none;
+    }
+}
+
+@media (min-width:1200px) {
+    .header .toggle-menu {
+        display: none;
+    }
+
+    .header .header-pages {
+        display: flex !important;
+    }
+
+}
+
+/* End Header */

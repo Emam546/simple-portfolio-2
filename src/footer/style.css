@@ -1,0 +1,52 @@
+.footer {
+    background-color: var(--gray-color);
+    background-image: url("./images/design-features.jpg");
+    background-size: cover;
+    padding: calc(var(--section-padding) /2) 0 17px;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.footer::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.footer .container {
+    position: relative;
+}
+
+.footer .foot-logo {}
+
+.footer h2 {
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.footer .icons {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    margin: auto;
+    border-top: 1px solid white;
+}
+
+.footer .icons>i {
+    margin: 9px 7px;
+    font-size: 12px;
+}
+
+.footer p {
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+.footer p span {
+    color: var(--main-color);
+}

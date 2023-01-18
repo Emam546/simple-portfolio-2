@@ -1,0 +1,58 @@
+.port-viewer {
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin: auto;
+}
+
+.port-viewer .card {
+    position: relative;
+    height: fit-content;
+    overflow: hidden;
+    flex-basis: 25%;
+}
+
+.port-viewer .card .img-cover {
+    width: 100%;
+    overflow: hidden;
+}
+
+.port-viewer .card .img-cover img {
+    width: 100%;
+    transition: 0.3s;
+}
+
+.port-viewer .card .text-content {
+    position: absolute;
+    background-color: white;
+    padding: 20px 30px;
+    bottom: -100%;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.port-viewer .card .text-content p {
+    color: var(--main-color);
+}
+
+.port-viewer .card:hover .text-content {
+    bottom: 0;
+}
+
+.port-viewer .card:hover img {
+    transform: rotate(3deg) scale(1.1);
+}
+
+
+
+@media (max-width:992px) {
+    .port-viewer .card {
+        flex-basis: 50% ;
+    }
+}
+@media (max-width:768px) {
+    .port-viewer .card {
+        flex-basis: 100%;
+    }
+}
