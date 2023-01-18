@@ -5,7 +5,7 @@ function Bar({ children, percent }: { children: ReactNode; percent: string }) {
         <li>
             {children}
             <span style={{ width: percent }}>
-                <i className="material-symbols-outlined" percent={percent}>
+                <i className="material-symbols-outlined" data-percent={percent}>
                     mode_comment
                 </i>
             </span>
