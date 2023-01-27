@@ -1,7 +1,7 @@
 import "./style.css";
 export default function Contact() {
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <div className="container">
                 <div className="special-heading">
                     <h2>Contact us</h2>

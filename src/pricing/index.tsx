@@ -1,7 +1,7 @@
 import "./style.css";
 export default function Pricing() {
     return (
-        <div className="prices">
+        <div className="prices" id="prices">
             <div className="container">
                 <div className="special-heading">
                     <h2>Pricing</h2>

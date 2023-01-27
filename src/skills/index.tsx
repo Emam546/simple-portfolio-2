@@ -14,7 +14,7 @@ function Bar({ children, percent }: { children: ReactNode; percent: string }) {
 }
 export default function Skills() {
     return (
-        <div className="skills">
+        <div className="skills" id="skills">
             <div className="container">
                 <div className="feedBack">
                     <h1>testimonials</h1>

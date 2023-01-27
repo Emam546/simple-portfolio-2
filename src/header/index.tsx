@@ -16,22 +16,22 @@ export default function Header() {
                         className="header-pages"
                         style={!state?{ display: "none" }:{}}
                     >
-                        <a href="">
+                        <a href="#">
                             <li className="selected">home</li>
                         </a>
-                        <a href="">
+                        <a href="#services">
                             <li>services</li>
                         </a>
-                        <a href="">
+                        <a href="#portfolio">
                             <li>portfolio</li>
                         </a>
-                        <a href="">
+                        <a href="#about">
                             <li>about</li>
                         </a>
-                        <a href="">
+                        <a href="#prices">
                             <li>pricing</li>
                         </a>
-                        <a href="">
+                        <a href="#contact">
                             <li>contact</li>
                         </a>
                     </ul>

@@ -113,4 +113,14 @@
 
 }
 
+@media (max-width:300px) {
+    .header .header-logo{
+        display: none;
+    }
+    .header nav{
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
 /* End Header */

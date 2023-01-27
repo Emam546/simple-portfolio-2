@@ -13,7 +13,9 @@
     --gray-color:#6F6C6E;
     --shadowed-text:#BCB9BA;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: "Open-sans", "sans-serif";
     margin: 0px;

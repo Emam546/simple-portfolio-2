@@ -1,7 +1,7 @@
 import "./style.css";
 export default function Statistics() {
     return (
-        <div className="static">
+        <div className="static" id="static">
             <div className="container">
                 <div className="card">
                     <i className="fa fa-mug-hot"></i>

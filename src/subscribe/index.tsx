@@ -1,7 +1,7 @@
 import "./style.css";
 export function Subscribe() {
     return (
-        <div className="subscribe">
+        <div className="subscribe" id="subscribe">
             <div className="container">
                 <form className="input-email">
                     <input type="text" className="email" placeholder="YOUR MAIL" />

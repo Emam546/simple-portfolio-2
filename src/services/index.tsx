@@ -2,7 +2,7 @@ import Responsive from "./responsive";
 import "./style.css";
 export function Services() {
     return (
-        <div className="services">
+        <div className="services" id="services">
             <div className="container">
                 <div className="special-heading">
                     <h2>SERVICES</h2>

@@ -1,7 +1,7 @@
 import "./style.css"
 export default function About() {
     return (
-        <div className="about">
+        <div className="about" id="about">
             <div className="special-heading">
                 <h2>About</h2>
                 <p>
